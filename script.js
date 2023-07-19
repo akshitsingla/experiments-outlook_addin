@@ -10,7 +10,7 @@
     function initializeAddin() {
       logMessage("initializeAddin() invoked!");
       // Add event handlers to interact with the add-in and Outlook
-    //   document.getElementById("btnReadMessage").addEventListener("click", readMessage);
+      document.getElementById("btnReadMessage").addEventListener("click", readMessage);
     }
 
     function readMessage() {
@@ -32,5 +32,5 @@
     }
 
     function logMessage(messageText) {
-      document.getElementById("consoleContent").innerText += `${Date.now().toString()}: ${messageText} <hr/>`;
+      document.getElementById("consoleContent").innerHTML += `${Date.now().toString()}: ${messageText} <hr/>`;
     }
