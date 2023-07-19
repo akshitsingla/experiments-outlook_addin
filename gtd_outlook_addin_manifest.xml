@@ -11,8 +11,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="BBAK GTD"/>
   <Description DefaultValue="BBAK's GTD Outlook Add-in."/>
-  <IconUrl DefaultValue="https://assldev.github.io/outlook_addin_gtd/assets/Logo2.png"/>
-  <HighResolutionIconUrl DefaultValue="https://assldev.github.io/outlook_addin_gtd/assets/Logo2.png"/>
+  <IconUrl DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/assets/Logo2.png"/>
+  <HighResolutionIconUrl DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/assets/Logo2.png"/>
   
   <Hosts>
     <Host Name="Mailbox"/>
@@ -26,7 +26,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://assldev.github.io/outlook_addin_gtd/message-read.html"/>
+        <SourceLocation DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/message-read.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -80,12 +80,12 @@
 
       <Resources>
         <bt:Images>
-          <bt:Image id="icon-16" DefaultValue="https://assldev.github.io/outlook_addin_gtd/assets/Logo2.png"/>
-          <bt:Image id="icon-32" DefaultValue="https://assldev.github.io/outlook_addin_gtd/assets/Logo2.png"/>
-          <bt:Image id="icon-80" DefaultValue="https://assldev.github.io/outlook_addin_gtd/assets/Logo2.png"/>
+          <bt:Image id="icon-16" DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/assets/Logo2.png"/>
+          <bt:Image id="icon-32" DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/assets/Logo2.png"/>
+          <bt:Image id="icon-80" DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/assets/Logo2.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="taskPaneUrl" DefaultValue="https://assldev.github.io/outlook_addin_gtd/message-read.html"/>
+          <bt:Url id="taskPaneUrl" DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/message-read.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="groupLabel" DefaultValue="Actionable Message Activation"/>
