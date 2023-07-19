@@ -15,35 +15,42 @@
     });
 
     function initializeAddin() {
-      // Add any initialization code here
-      console.log("Addin initialized");
+      logMessage("initializeAddin() invoked!");
       // Add event handlers to interact with the add-in and Outlook
       document.getElementById("btnReadMessage").addEventListener("click", readMessage);
     }
 
     function readMessage() {
+      logMessage("readMessage() invoked!");
       // Get the current item (email) from the Office API
       Office.context.mailbox.item.getAsync(Office.CoercionType.Text, function (result) {
         if (result.status === Office.AsyncResultStatus.Succeeded) {
           var messageBody = result.value;
+          logMessage(`messageBody retrieve SUCCESS: ${result}`);
 
           // Do something with the message body, e.g., display it in a div
           document.getElementById("messageContent").innerText = messageBody;
         } else {
           // Handle error
           console.error("Error reading message:", result.error.message);
+          logMessage(`messageBody retrieve FAILED: ${result}`);
         }
       });
     }
+
+    function logMessage(messageText) {
+      document.getElementById("consoleContent").innerText += `${Date.now().toString()}: ${messageText}<hr/>`;
+    }
   </script>
-  <style>
-    /* Add your CSS styles here */
-  </style>
 </head>
 <body>
   <h1>Outlook Add-in: Read Message</h1>
   <div>
     <button id="btnReadMessage">Read Message</button>
+  </div>
+  <div>
+    <h2>Console:</h2>
+    <div id="consoleContent"></div>
   </div>
   <div>
     <h2>Message Content:</h2>
