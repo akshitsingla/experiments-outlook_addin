@@ -1,10 +1,10 @@
     Office.onReady(function (info) {
       logMessage("Office.onReady() invoked!");
       // Ensure the DOM is ready
-      document.addEventListener("DOMContentLoaded", function () {
+      // document.addEventListener("DOMContentLoaded", function () {
         // Call the initialization function for your add-in
         initializeAddin();
-      });
+      // });
     });
 
     function initializeAddin() {
