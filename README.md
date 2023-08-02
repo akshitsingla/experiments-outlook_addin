@@ -36,3 +36,6 @@ docker run  -it \
 **Note**
 1. Please update the ngrok command with your `NGROK_AUTH_TOKEN`.
 2. Please update your own `NGROK_DOMAIN` in above command as well as in manifest file (for local debugging).
+
+# Credits
+1. https://www.youtube.com/watch?v=ZWw-fJ7eldU&t=1000s 
