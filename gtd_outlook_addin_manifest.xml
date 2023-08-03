@@ -26,7 +26,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/message-read.html"/>
+        <SourceLocation DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/app/message-read.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -85,7 +85,7 @@
           <bt:Image id="icon-80" DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/assets/Logo2.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="taskPaneUrl" DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/message-read.html"/>
+          <bt:Url id="taskPaneUrl" DefaultValue="https://akshitsingla.github.io/experiments-outlook_addin/app/message-read.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="groupLabel" DefaultValue="Actionable Message Activation"/>
