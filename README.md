@@ -39,3 +39,4 @@ docker run  -it \
 
 # Credits
 1. https://www.youtube.com/watch?v=ZWw-fJ7eldU&t=1000s 
+2. https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/?view=word-js-preview 
