@@ -101,5 +101,9 @@
 
         setEmailPriority: function() {
           dev.logString("setEmailPriority() invoked!");
+        },
+
+        setEmailTags: function() {
+          dev.logString("setEmailTags() invoked!");
         }
       };
